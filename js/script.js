@@ -17,8 +17,8 @@
 
 // Songs
 var mySong = {
-	"title":"24K Magic",
-	"artist":"Bruno Mars",
+	"title":"Endless Possibility",
+	"artist":"Jaret Reddick",
 	"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
 	"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
 }
