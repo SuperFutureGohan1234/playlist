@@ -15,6 +15,105 @@
 //******************TEST EARLY AND OFTEN USING console.log() ******************
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Songs
 var mySong = {
 	"title":"Endless Possibility",
@@ -44,6 +143,12 @@ var myPlayList = [
 	}
 
 ]
+myPlaylist[0].artist
+
+songs=myPlaylist[0].append
+
+
+
 
 
 
