@@ -15,105 +15,6 @@
 //******************TEST EARLY AND OFTEN USING console.log() ******************
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Songs
 var mySong = {
 	"title":"Endless Possibility",
@@ -143,26 +44,25 @@ var myPlayList = [
 	}
 
 ]
-myPlaylist[0].artist
-
-songs=myPlaylist[0].append
-
-
-
-
-
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
   
-
+displayList();
 
 
 });
 
 function displayList(){
 
+for(var i = 0; i < myPlayList.length; i++) {
+    var title = myPlayList[i].title;
+    var artist = myPlayList[i].artist;
+    var mp3URL = myPlayList[i]["mp3-url"];
+    var imageURL = myPlayList[i]["image-url"];
+    $('.songs').append("<h3>" + title +  "</h3>")
 
+}
   
 }
 
