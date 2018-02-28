@@ -61,7 +61,9 @@ for(var i = 0; i < myPlayList.length; i++) {
     var mp3URL = myPlayList[i]["mp3-url"];
     var imageURL = myPlayList[i]["image-url"];
     $('.songs').append("<h3>" + title +  "</h3>")
-
+    $('.songs').append("<h3>" + artist +  "</h3>")
+    $('.songs').append("<h3>" +  +  "</h3>")
+    $('.songs').append("<img src=" + imageURL + ">")
 }
   
 }
